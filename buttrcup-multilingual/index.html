@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ButtrCup — Language Redirect</title>
+  <meta http-equiv="refresh" content="0; url=/en/">
+  <script>
+    (function(){
+      var map = { en:'en', de:'de', fr:'fr', it:'it', es:'es' };
+      var lang = (navigator.language || 'en').slice(0,2).toLowerCase();
+      var target = map[lang] || 'en';
+      window.location.replace('/' + target + '/');
+    })();
+  </script>
+</head>
+<body>Redirecting…</body>
+</html>

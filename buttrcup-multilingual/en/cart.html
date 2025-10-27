@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <title>ButtrCup — Cart</title>
+  <meta name="description" content="Premium nut-butter cups and IceCups with natural sweeteners – crafted in Switzerland for a silky melt and clean taste." />
+  <meta property="og:title" content="ButtrCup — Cart" />
+  <meta property="og:description" content="Premium nut-butter cups and IceCups with natural sweeteners – crafted in Switzerland for a silky melt and clean taste." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ButtrCup" />
+  <meta property="og:image" content="/assets/images/og-image.jpg" />
+  <meta name="theme-color" content="#4b2b21" />
+  <link rel="canonical" href="https://your-domain.tld/en/cart.html" />
+  <link rel="alternate" hreflang="en" href="https://your-domain.tld/en/cart.html"/>
+<link rel="alternate" hreflang="de" href="https://your-domain.tld/de/cart.html"/>
+<link rel="alternate" hreflang="fr" href="https://your-domain.tld/fr/cart.html"/>
+<link rel="alternate" hreflang="it" href="https://your-domain.tld/it/cart.html"/>
+<link rel="alternate" hreflang="es" href="https://your-domain.tld/es/cart.html"/>
+<link rel="alternate" hreflang="x-default" href="https://your-domain.tld/en/cart.html"/>
+  <link rel="preload" href="/assets/css/styles.css" as="style" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="icon" href="/assets/images/buttrcup-logo.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/en/"><img src="/assets/images/buttrcup-logo.png" alt="ButtrCup Logo" /></a>
+      <nav class="main-nav" id="mainNav">
+        <button class="menu-toggle" aria-controls="mainNav" aria-expanded="false" aria-label="Open menu">☰</button>
+        <div class="nav-links">
+          <a href="/en/">Home</a>
+          <a href="/en/products.html">Products</a>
+          <a href="/en/about.html">About</a>
+          <a href="/en/sustainability.html">Sustainability</a>
+          <a href="/en/retailers.html">For Retailers</a>
+          <a href="/en/contact.html">Contact</a>
+          <a href="/en/cart.html" class="cart-link">Cart <span id="cart-count">0</span></a>
+          <span class="lang-switch"><a href="/en/" class="active">EN</a> <a href="/de/" class="">DE</a> <a href="/fr/" class="">FR</a> <a href="/it/" class="">IT</a> <a href="/es/" class="">ES</a></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    
+<section class="page container">
+  <h1>Cart</h1>
+  <table class="table">
+    <thead><tr><th>Item</th><th>Price</th><th>Qty</th><th>Subtotal</th><th></th></tr></thead>
+    <tbody id="cart-table-body"></tbody>
+    <tfoot><tr><td colspan="3">Total</td><td id="cart-total">CHF 0.00</td><td></td></tr></tfoot>
+  </table>
+  <p><a href="#" id="checkout-mail" class="btn-primary">Order by e-mail</a></p>
+  <p style="font-size:14px;color:#777">Note: Simple e-mail checkout for demo. For full checkout integrate Shopify or WooCommerce.</p>
+</section>
+
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="/assets/images/buttrcup-logo.png" alt="ButtrCup" class="footer-logo" />
+        <p>ButtrCup — Swiss-crafted chocolate, naturally sweetened.</p>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:info@buttrcup.com">info@buttrcup.com</a></p>
+        <p>Phone: +41 00 000 00 00</p>
+      </div>
+
+      <div>
+        <h4>Newsletter</h4>
+        <form name="newsletter" method="post" data-netlify="true" class="newsletter" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="newsletter">
+          <p class="hidden"><label>Do not fill: <input name="bot-field" /></label></p>
+          <input type="email" name="email" placeholder="E-Mail" aria-label="E-Mail" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="legal container">
+      <p>Imprint • Privacy • Terms</p>
+      <p>© <span>2025</span> ButtrCup. All rights reserved.</p>
+    </div>
+  </footer>
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie notice" hidden>
+    <div class="cookie-inner">
+      <p>We use only essential cookies. Optional services (e.g. analytics) load only with your consent.</p>
+      <div class="cookie-actions">
+        <button id="cookieAccept">OK</button>
+        <button id="cookieDecline" class="btn-outline">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script defer src="/assets/js/main.js"></script>
+</body>
+</html>
