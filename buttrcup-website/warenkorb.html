@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <title>Warenkorb — ButtrCup</title>
+  <meta name="description" content="Warenkorb & Bestellung bei ButtrCup." />
+  <meta property="og:title" content="Warenkorb — ButtrCup" />
+  <meta property="og:description" content="Warenkorb & Bestellung bei ButtrCup." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ButtrCup" />
+  <meta name="theme-color" content="#4b2b21" />
+  <link rel="canonical" href="https://your-domain.tld/warenkorb---buttrcup" />
+  <link rel="preload" href="/assets/css/styles.css" as="style" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="icon" href="/assets/images/favicon.ico" sizes="any" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  
+  
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/index.html"><img src="/assets/images/logo.svg" alt="ButtrCup Logo" /></a>
+      <nav class="main-nav" id="mainNav">
+        <button class="menu-toggle" aria-controls="mainNav" aria-expanded="false" aria-label="Menü öffnen">☰</button>
+        <div class="nav-links">
+          <a href="/index.html">Home</a>
+          <a href="/produkte.html">Produkte</a>
+          <a href="/about.html">Über uns</a>
+          <a href="/nachhaltigkeit.html">Nachhaltigkeit</a>
+          <a href="/haendler.html">Für Händler</a>
+          <a href="/kontakt.html">Kontakt</a>
+          <a href="/warenkorb.html" class="cart-link">Warenkorb <span id="cart-count">0</span></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+<section class="page container">
+  <h1>Warenkorb</h1>
+  <table class="table">
+    <thead><tr><th>Artikel</th><th>Preis</th><th>Menge</th><th>Zwischensumme</th><th></th></tr></thead>
+    <tbody id="cart-table-body"></tbody>
+    <tfoot><tr><td colspan="3">Summe</td><td id="cart-total">CHF 0.00</td><td></td></tr></tfoot>
+  </table>
+  <p><a href="#" id="checkout-mail" class="btn-primary">Per E-Mail bestellen</a></p>
+  <p style="font-size:14px;color:#777">Hinweis: Dies ist ein einfacher Bestellvorgang per E-Mail. Für einen vollwertigen Checkout empfehlen wir eine Integration mit Shopify oder WooCommerce.</p>
+</section>
+
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="/assets/images/logo.svg" alt="ButtrCup" class="footer-logo" />
+        <p>ButtrCup — Schweizer Schokolade, natürlich gesüßt.</p>
+      </div>
+
+      <div>
+        <h4>Kontakt</h4>
+        <p>Email: <a href="mailto:info@buttrcup.com">info@buttrcup.com</a></p>
+        <p>Telefon: +41 00 000 00 00</p>
+      </div>
+
+      <div>
+        <h4>Newsletter</h4>
+        <form name="newsletter" method="post" data-netlify="true" class="newsletter" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="newsletter">
+          <p class="hidden"><label>Nicht ausfüllen: <input name="bot-field" /></label></p>
+          <input type="email" name="email" placeholder="E-Mail" aria-label="E-Mail" required />
+          <button type="submit">Anmelden</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="legal container">
+      <p><a href="/impressum.html">Impressum</a> • <a href="/datenschutz.html">Datenschutz</a> • <a href="/agb.html">AGB</a></p>
+      <p>© <span>2025</span> ButtrCup. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie-Hinweis" hidden>
+  <div class="cookie-inner">
+    <p>Wir verwenden nur technisch notwendige Cookies. Optionale Dienste (z.&nbsp;B. Analytics) werden nur mit deiner Einwilligung geladen.</p>
+    <div class="cookie-actions">
+      <button id="cookieAccept">Einverstanden</button>
+      <button id="cookieDecline" class="btn-outline">Ablehnen</button>
+    </div>
+  </div>
+</div>
+
+  <script defer src="/assets/js/main.js"></script>
+</body>
+</html>
